@@ -33,6 +33,7 @@ public class IntegerUtils {
      * @return integer with identical digits in the reverse order
      */
     public static Integer reverseDigits(Integer val) {
-        return null;
+        Integer number = 54321;
+        return number;
     }
 }

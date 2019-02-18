@@ -4,7 +4,8 @@ package com.zipcodewilmington.assessment1.part3;
  * Created by leon on 2/16/18.
  */
 public class PetOwner {
-
+    private String name;
+    Pet pet;
     /**
      * @param name name of the owner of the Pet
      * @param pets array of Pet object
@@ -69,7 +70,7 @@ public class PetOwner {
      * @return the name property of the Pet
      */
     public String getName() {
-        return null;
+        return this.name;
     }
 
     /**

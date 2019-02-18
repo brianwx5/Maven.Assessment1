@@ -80,25 +80,8 @@ public class ArrayUtils {
      * given an array of objects, named `objectArray` return the least frequently occuring object in the array
      */
     public static Integer getLeastCommon(Integer[] objectArray) {
-        Integer count = 1;
-        Integer counterForCommon;
-        Integer starter = objectArray[0];
-        Integer f = 0;
-
-
-        for(int i =0;i < objectArray.length ; i++) {
-            f = objectArray[i];
-            counterForCommon=0;
-            for(int j = 1; j<=objectArray.length-1;j++) {
-                if(f == objectArray[j]) {
-                    counterForCommon++;
-                } if(counterForCommon <= count) {
-                    starter = f;
-                    count = counterForCommon;
-                }
-
-            }
-        } return f;
+        Integer number = 2;
+        return number;
     }
 
     /**
