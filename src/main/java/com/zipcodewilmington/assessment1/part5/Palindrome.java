@@ -2,7 +2,7 @@ package com.zipcodewilmington.assessment1.part5;
 
 public class Palindrome {
 
-    public Integer countPalindromes(String input){
+   public Integer countPalindromes(String input){
         String[] stringArray = input.split("");
         String[] reversedStringArray = new String[stringArray.length];
         int counter =0;
@@ -17,4 +17,5 @@ public class Palindrome {
 
         } return counter;
     }
+
 }
